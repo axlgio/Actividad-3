@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anleitung 3</string>
+    <string name="Nombre">Name</string>
+    <string name="NumeroTarjeta">Kartennummer</string>
+    <string name="FechaVencimiento">MM/YY</string>
+    <string name="CVV">CVV</string>
+    <string name="Formulario">Kartenformular</string>
+    <string name="Pagar">Zahlen</string>
+
+
+    <string name="diseno1">Google</string>
+    <string name="botonDiseno1">reinkommen</string>
+
+    <string name="diseno2">Willkommen bei Google Drive</string>
+    <string name="botonDiseno2">hinter</string>
+</resources>

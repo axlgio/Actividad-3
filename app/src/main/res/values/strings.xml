@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GUIA-3</string>
+    <string name="Nombre">Nombre</string>
+    <string name="NumeroTarjeta">Numero de Tarjeta</string>
+    <string name="FechaVencimiento">MM/YY</string>
+    <string name="CVV">CVV</string>
+    <string name="Formulario">Formulario de Tarjeta</string>
+    <string name="Pagar">Pagar</string>
+
+    <string name="diseno1">Google</string>
+    <string name="botonDiseno1">Entrar</string>
+
+    <string name="diseno2">Bienvenido a Google Drive</string>
+    <string name="botonDiseno2">atras</string>
+
+</resources>

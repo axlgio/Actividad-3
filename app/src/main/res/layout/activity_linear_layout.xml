@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearLayout"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Formulario"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tarjeta"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+         />
+
+    <EditText
+        android:id="@+id/NTarjeta"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:hint="@string/NumeroTarjeta"
+       >
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="@string/Nombre"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+       >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/FechaVencimiento"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:hint="@string/FechaVencimiento"
+        android:inputType="date"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+       >
+        ></EditText>
+
+    <EditText
+        android:id="@+id/CVV"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="-55dp"
+        android:hint="@string/CVV">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/BotonPagar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#DF3D3D"
+        android:text="@string/Pagar"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+       >
+
+    </Button>
+
+
+</LinearLayout>
